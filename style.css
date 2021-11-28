@@ -99,11 +99,56 @@ button {
     margin: 48px;
 }
 
-img {
+.gif {
     width: 75%;
     height: 60%;
 }
 
+.information {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 32px;
+   margin-bottom: 100px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.cards {
+    border: 5px solid rgb(20, 124, 158);
+    height: auto;
+    width: 150px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.space {
+    height: 100%;
+    width: 100%;
+}
+
+.quote {
+    display: flex;
+    background: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding: 100px 350px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: light;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.section {
+    
+}
 
 .footer {
     background: #1f2937;
