@@ -11,24 +11,42 @@ body, html {
 }
 
 .header {
-border: lawngreen 5px solid;
+
 display: flex;
-justify-content: space-between;
+height: 60px;
+background: #1f2937;
+color: #eee;
+padding:  0 50px;
+
 }
 
 .logo {
-border: turquoise 5px solid;
+    
+    width: 50%;
+   
+    font-size: 24px;
 }
 
 .links {
-border: 5px solid;
+    
+    width: 50%;
+    
 }
 
 ul {
     display: flex;
+   justify-content: flex-end;
 }
 
 li, a {
     text-decoration: none;
     list-style-type: none;
+    color: #eee;
+    padding: 0 8px;
+    font-size: 18px;
+}
+
+.footer {
+    background: #1f2937;
+    color: #eee;
 }
