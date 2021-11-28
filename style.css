@@ -21,9 +21,8 @@ padding:  0 50px;
 }
 
 .logo {
-    
+    color: #f9faf8;
     width: 50%;
-   
     font-size: 24px;
 }
 
@@ -41,9 +40,43 @@ ul {
 li, a {
     text-decoration: none;
     list-style-type: none;
-    color: #eee;
+    color: #e5e7eb;
     padding: 0 8px;
     font-size: 18px;
+}
+
+.sub-header {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    border: 5px solid red;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    border: yellow solid 5px;
+    width: 40%;
+    height: 300px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.para-1 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    align-self: flex-start;
+    background: #3882f6;
+    border: #3882f6;
+    color: #f9faf8;
+    padding: 4px 24px;
+    border-radius: 8px;
 }
 
 .footer {
