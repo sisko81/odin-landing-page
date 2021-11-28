@@ -10,3 +10,25 @@ body, html {
     flex-direction: column;
 }
 
+.header {
+border: lawngreen 5px solid;
+display: flex;
+justify-content: space-between;
+}
+
+.logo {
+border: turquoise 5px solid;
+}
+
+.links {
+border: 5px solid;
+}
+
+ul {
+    display: flex;
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
