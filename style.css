@@ -26,7 +26,8 @@ padding:  0 120px;
     color: #f9faf8;
     width: 30%;
     font-size: 24px;
-    border: red 5px solid;
+    
+    background: rgb(77, 77, 238);
 }
 
 .logos {
@@ -48,13 +49,17 @@ img {
 
 .links {
     
-    width: 90%;
-    
+    width: 100%;
+    border:rgb(77, 77, 238) 1px solid ;
+    border-right: transparent;
 }
 
 ul {
     display: flex;
    justify-content: flex-end;
+   align-items: center;
+   
+   height: 60px;
 }
 
 li, a {
@@ -66,8 +71,15 @@ li, a {
 }
 
 li :hover {
-    background-color: grey;
-    color: rgb(14, 31, 85);
+    background-color: rgb(64, 179, 224);
+    color: rgb(253, 253, 253);
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    
+    
 }
 
 .sub-header {
