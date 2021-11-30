@@ -27,7 +27,7 @@ padding:  0 120px;
     width: 30%;
     font-size: 24px;
     
-    background: rgb(77, 77, 238);
+    background: #3882f6;
 }
 
 .logos {
@@ -43,14 +43,14 @@ padding:  0 120px;
 
 img {
     
-    width: 50px;
+    
    
 }
 
 .links {
     
     width: 100%;
-    border:rgb(77, 77, 238) 1px solid ;
+    border:#3882f6 1px solid ;
     border-right: transparent;
 }
 
@@ -100,12 +100,14 @@ li {
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 16px;
 }
 
 .para-1 {
     font-size: 18px;
     color: #e5e7eb;
     padding-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 
@@ -115,7 +117,15 @@ button {
     border: #3882f6;
     color: #1f2937;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wallet {
+    background: #1f2937;
+    border: #e5e7eb 1px solid;
+    color: #e5e7eb;
+    margin-left: 5px;
 }
 
 .image-placeholder {
@@ -131,8 +141,8 @@ button {
 }
 
 .gif {
-    width: 75%;
-    height: 60%;
+    width: 600px;
+    height: 400px;
 }
 
 .information {
@@ -146,22 +156,34 @@ button {
 .card-container {
     display: flex;
     flex-direction: row;
+    
     margin-top: 32px;
 }
 
 .cards {
     border: 1px solid rgb(20, 124, 158);
-    height: 170px;
+    height: auto;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    margin: 15px;
     width: 250px;
-    margin: 8px;
     border-radius: 10px;
+    box-shadow: rgb(209, 209, 240) 3px 2px 2px 3px;
+}
+
+.one, .two, .three, .four {
+    
+    color: rgb(15, 70, 235);
+    font-size: 70px;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .space {
-    height: 100%;
     width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 6px;
 }
 
 .quote {
