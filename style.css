@@ -189,20 +189,22 @@ button {
 .quote {
     display: flex;
     background: #e5e7eb;
-    justify-content: center;
-    align-items: center;
+    
+    padding-top: 100px;
     width: 100%;
     height: 600px;
-    padding: 100px 350px;
-    font-size: 36px;
+    
+    font-size: 26px;
     color: #1f2937;
     font-weight: light;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lato', sans-serif;
     
 }
 
+
+
 .section {
-    margin: 800px 0;
+  
 }
 
 .footer {
