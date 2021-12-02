@@ -222,7 +222,7 @@ button {
 }
 
 .sign-up {
-    
+    display: flex;
 }
 
 .footer {
