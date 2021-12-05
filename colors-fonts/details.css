@@ -50,3 +50,41 @@ body, html {
 .item-7 {
     padding-bottom: 32px;
 }
+
+.info {
+    padding: 32px 0 0 24px;
+}
+
+.btn-child {
+    color: #3882f6;
+    padding-bottom: 24px;
+}
+
+.bold-child {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-bottom: 24px;
+}
+
+.quote {
+    background: #e5e7eb;
+    padding: 12px 0 0 24px;
+}
+
+.quote-parent {
+   
+}
+
+.quote-child {
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.quote-child-2 {
+    font-size: 36px ;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-top: 8px;
+    padding-bottom: 36px;
+}
